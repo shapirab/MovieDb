@@ -1,0 +1,23 @@
+/* card header */
+.movie-card--header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-card__heading{
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: 1.7rem;
+}
+
+.movie-card__rating{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: var(--background-color);
+    padding: 0.7rem 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+/* end of card header */
