@@ -21,3 +21,24 @@
     font-size: 1.3rem;
 }
 /* end of card header */
+/* movie card */
+.card--movie{
+    width: 100%;
+    height: 100%;
+    background-color: var(--form-background-color);
+}
+
+.movie__image{
+    width: 100%;
+    height: 70%;
+}
+
+.movie__image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie__info{
+    margin-top: 1.5rem;
+}
+/* end of movie card */
