@@ -1,3 +1,11 @@
+/* container */
+.container{
+    background-color: var(--background-color);
+    padding: 1rem;
+    overflow: scroll;
+    height: 100%;
+}
+
 /* card header */
 .card-container{
     position: relative;
@@ -11,7 +19,7 @@
 }
 
 .card--movie:hover + .overlap{
-    height: 80%;
+    height: 70%;
     visibility: visible;
     padding: 2rem;
 }
