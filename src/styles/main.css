@@ -84,3 +84,30 @@
 }
 /* end of movie overview */
 /* end of movie card */
+/* search component */
+.search-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    width: fit-content;
+    padding: 0.8rem 1.2rem;
+    border-radius: 20px;
+    background-color: var(--form-background-color);
+}
+.search__input{
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+.search__input::placeholder{
+    color: var(--placeholder-color);
+}
+
+.search__icon{
+    font-size: 1rem;
+    color: var(--placeholder-color);
+}
+/* end of search component */
